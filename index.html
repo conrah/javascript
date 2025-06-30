@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Java Script TB_FINAL</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trabalho final JS!</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
 </head>
 <body>
-  <h1>Oque deseja jogar?</h1>
-  
+  <h1>Jogos em Java Script</h1>
   <div class="botoes">
-    <button onclick="bt_exemplos('exemplos/Exemplo 1 - Formulário com salvamento em txt-20250628/index.html')">
-      Salvar em .txt
-    </button>
-    <button onclick="bt_exemplos('exemplos/Exemplo 2 - Lista-20250628/index.html')">
-      Lista das Frutas
-    </button>
-    <button onclick="bt_exemplos('exemplos/Aula 2 - JogoNumeroSecretoMaisInterativo-20250628/index.html')">
-      Adivinhe o numero
-    </button>
+    <button onclick="jogo1()">Adivinhe o número</button>
+    <button onclick="jogo2()">Calcular médias</button>
+    <button onclick="jogo3()">Salvar em .txt</button>
+  </div>
+  <div id="conteudo">
+    <p>Clique no botao para jogarmos!</p>
   </div>
 </body>
 </html>
